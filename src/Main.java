@@ -4,6 +4,7 @@ import java.util.function.Predicate;
 public class Main {
     public static void main(String[] args) {
 
+
         List<Person> personList = new ArrayList<>();
         Predicate<Person> personPredicate = a -> a.getAge() < 18;
 
